@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" android:id="@+id/gameboard_layout"
+             android:layout_gravity="center" android:gravity="center">
+
+    <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/Row1">
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/col11"
+                android:background="@drawable/layout_border">
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/imageView11"
+                    android:onClick="dropIn" android:tag="11"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/col12"
+                android:background="@drawable/layout_border"
+        >
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/imageView12"
+                    android:onClick="dropIn" android:tag="12"/>
+        </TableRow>
+
+
+        <TableRow android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:id="@+id/col3"
+                  android:background="@drawable/layout_border"
+        >
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/imageView13"
+                    android:onClick="dropIn" android:tag="13"/>
+        </TableRow>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/Row2">
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/col21"
+                android:background="@drawable/layout_border"
+        >
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/imageView21"
+                    android:onClick="dropIn" android:tag="21"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/col22"
+                android:background="@drawable/layout_border"
+        >
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/imageView22"
+                    android:onClick="dropIn" android:tag="22"/>
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:id="@+id/col23"
+                  android:background="@drawable/layout_border"
+        >
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/imageView23"
+                    android:onClick="dropIn" android:tag="23"/>
+        </TableRow>
+    </TableRow>
+    <TableRow android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/Row3">
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/col31"
+                android:background="@drawable/layout_border"
+        >
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/imageView31"
+                    android:onClick="dropIn" android:tag="31"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/col32"
+                android:background="@drawable/layout_border"
+        >
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/imageView32"
+                    android:onClick="dropIn" android:tag="32"/>
+        </TableRow>
+
+        <TableRow android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" android:id="@+id/col33"
+                  android:background="@drawable/layout_border"
+        >
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/imageView33"
+                    android:onClick="dropIn" android:tag="33"/>
+        </TableRow>
+    </TableRow>
+</TableLayout>

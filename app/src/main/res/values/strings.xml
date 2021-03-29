@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">XOX</string>
+    <string name="welcome_message">welcome to my android application</string>
+    <string name="welcome_button">Start</string>
+    <string name="welcome_clicked">Starting</string>
+    <string name="player">Current player: %s.</string>
+    <string name="win_message">Someone win</string>
+    <string name="draw_message">Draw!!</string>
+    <string name="player_config_message">Please select current player name</string>
+
+</resources>

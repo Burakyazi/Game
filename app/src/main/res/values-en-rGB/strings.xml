@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XOX</string>
+    <string name="welcome_message">welcome to my android application</string>
+    <string name="welcome_button">start</string>
+    <string name="welcome_clicked">Starting now</string>
+    <string name="player">Current player %s</string>
+    <string name="win_message">%s is won! Score is %.2f</string>
+    <string name="draw_message">Game resulted in draw!</string>
+    <string name="player_config_message">Select name for player %s</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XOX</string>
+    <string name="welcome_message">android uygulamama hoşgeldiniz</string>
+    <string name="welcome_button">başla</string>
+    <string name="welcome_clicked">Başlıyoruz</string>
+    <string name="player">Sıradaki oyuncu %s</string>
+    <string name="win_message">Kazanan %s! Puan %.2f</string>
+    <string name="draw_message">Oyun berabere kaldı!</string>
+    <string name="player_config_message">Oyuncu %s için lutfen isim seçin</string>
+</resources>
